@@ -49,6 +49,7 @@ export const authOptions: NextAuthOptions = {
       clientSecret: env.TWITCH_CLIENT_SECRET
     })
   ],
+  debug: true
 };
 
 /**
